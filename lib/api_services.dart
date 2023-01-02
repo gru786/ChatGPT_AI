@@ -2,7 +2,8 @@ import 'dart:convert';
 
 import 'package:http/http.dart' as http;
 
-String apiKey = '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';
+String apiKey = 'PUT_SECRET_API_KEY_FROM_OPENAI_HERE';
+//head over to openai.com -> signIn/signUp -> API -> (Top right)Personal -> View API keys -> Create new Secret API key
 
 class ApiServices {
   static String baseUrl = "https://api.openai.com/v1/completions";
